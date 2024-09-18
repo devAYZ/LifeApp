@@ -14,6 +14,7 @@
 		0424F60B2C9A7DF90066722E /* LifeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F60A2C9A7DF90066722E /* LifeAppTests.swift */; };
 		0424F6152C9A7DF90066722E /* LifeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F6142C9A7DF90066722E /* LifeAppUITests.swift */; };
 		0424F6172C9A7DF90066722E /* LifeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F6162C9A7DF90066722E /* LifeAppUITestsLaunchTests.swift */; };
+		0424F6252C9A7E380066722E /* MockGod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F6242C9A7E380066722E /* MockGod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0424F6102C9A7DF90066722E /* LifeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424F6142C9A7DF90066722E /* LifeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeAppUITests.swift; sourceTree = "<group>"; };
 		0424F6162C9A7DF90066722E /* LifeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0424F6242C9A7E380066722E /* MockGod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		0424F6092C9A7DF90066722E /* LifeAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				0424F6232C9A7E220066722E /* Mocks */,
 				0424F60A2C9A7DF90066722E /* LifeAppTests.swift */,
 			);
 			path = LifeAppTests;
@@ -125,6 +128,14 @@
 				0424F6162C9A7DF90066722E /* LifeAppUITestsLaunchTests.swift */,
 			);
 			path = LifeAppUITests;
+			sourceTree = "<group>";
+		};
+		0424F6232C9A7E220066722E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0424F6242C9A7E380066722E /* MockGod.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0424F6252C9A7E380066722E /* MockGod.swift in Sources */,
 				0424F60B2C9A7DF90066722E /* LifeAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
